@@ -61,7 +61,12 @@ public class CIBI_Lab extends JFrame {
         m.getBrecha();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter password: ");
-        if (br.readLine().trim().equals("CIBI_LABORATORY")) {
+        String s1 = "CIBI LABORATORY";
+        String s4 = " PASSWORD";
+        String s5 = " 12345";
+        String s2 = " ROCKS";
+        String s3 = " TEST";
+        if (br.readLine().trim().equals(s1+s2)) {
             try {
                 System.out.println("Correct password");
                 CIBI_Lab cl = new CIBI_Lab();
